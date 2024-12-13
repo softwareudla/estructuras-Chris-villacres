@@ -98,6 +98,7 @@ void Estado(struct Libro biblioteca[], int contador, int id) {
     }
 
     printf("Estado actualizado exitosamente.\n");
+    printf("Estado del libro actualizado: %s\n", biblioteca[indice].estado);
 }
 
 void eliminar(struct Libro biblioteca[], int *contador, int id) {
